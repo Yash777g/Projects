@@ -28,7 +28,7 @@ y = df['Price']
 model = LinearRegression()
 model.fit(X, y)
 
-# replacing it with real data but might do it later
+# replacing it with real data but might do it later due to legal reasons
 def get_land_rate(region):
     """Mock function to simulate fetching land rates (replace with real scraping)"""
     rates = {
